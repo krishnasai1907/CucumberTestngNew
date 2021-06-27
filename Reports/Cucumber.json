@@ -1,0 +1,260 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-27T10:51:25.697Z",
+        "line": 5,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "to-test-the-data;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14211009900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the Url \"https://opensource-demo.orangehrmlive.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://opensource-demo.orangehrmlive.com/",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefs.LoginPage.user_enters_the_Url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 488695100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User landed on webpage",
+            "match": {
+              "location": "StepDefs.LoginPage.user_landed_on_webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3041864600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the username and password from Excel and Json File",
+            "match": {
+              "location": "StepDefs.LoginPage.user_enter_the_username_and_password_from_Excel_and_Json_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5602023300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on submit button",
+            "match": {
+              "location": "StepDefs.HomePage.User_clickonsubmitbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 618348600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User take screenshot",
+            "match": {
+              "location": "StepDefs.Something.user_take_screenshot()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1106045700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User landed on home page",
+            "match": {
+              "location": "StepDefs.HomePage.User_landed_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 592424300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User close the Browser",
+            "match": {
+              "location": "StepDefs.LoginPage.userclosethebrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "To test the data",
+    "description": "",
+    "id": "to-test-the-data",
+    "keyword": "Feature",
+    "uri": "file:Features/First.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-27T10:51:51.970Z",
+        "line": 5,
+        "name": "Second Feature file Testing",
+        "description": "",
+        "id": "second-feature-file-testing;second-feature-file-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8347305000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the Url \"https://opensource-demo.orangehrmlive.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://opensource-demo.orangehrmlive.com/",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefs.LoginPage.user_enters_the_Url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 285241800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User landed on webpage",
+            "match": {
+              "location": "StepDefs.LoginPage.user_landed_on_webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1296529800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the username and password from Excel and Json File",
+            "match": {
+              "location": "StepDefs.LoginPage.user_enter_the_username_and_password_from_Excel_and_Json_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4664531400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on submit button",
+            "match": {
+              "location": "StepDefs.HomePage.User_clickonsubmitbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 332111900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User take screenshot",
+            "match": {
+              "location": "StepDefs.Something.user_take_screenshot()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1125987900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User landed on home page",
+            "match": {
+              "location": "StepDefs.HomePage.User_landed_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 595406800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User close the Browser",
+            "match": {
+              "location": "StepDefs.LoginPage.userclosethebrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Second Feature file Testing",
+    "description": "",
+    "id": "second-feature-file-testing",
+    "keyword": "Feature",
+    "uri": "file:Features/Second.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
