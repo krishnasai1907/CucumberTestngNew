@@ -2,6 +2,7 @@ package StepDefs;
 
 import java.util.concurrent.TimeUnit;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import Utilities.Config;
@@ -39,7 +40,8 @@ public class LoginPage
 	public void user_enters_the_Url(String url) throws Throwable {
 //		Utility.startVideo();
 //		ScreenRecorderUtil.startRecord("OrangeHRM");
-		System.setProperty("webdriver.chrome.driver",MainConfig.getProperties("chromeDriver"));
+//		System.setProperty("webdriver.chrome.driver",MainConfig.getProperties("chromeDriver"));
+		WebDriverManager.chromedriver().setup();
 	    Utility.driver=new ChromeDriver();
 //		System.setProperty("webdriver.gecko.driver",MainConfig.getProperties("geckoDriver"));
 //	    Utility.driver=new FirefoxDriver();
