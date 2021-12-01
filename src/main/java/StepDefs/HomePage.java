@@ -14,7 +14,8 @@ public class HomePage
 //	{
 //		this.base=base;
 //	}
-	
+
+
 	@Then("^User click on submit button$")
 	public void User_clickonsubmitbutton() throws Throwable {
 		Utility.driver.findElement(btnLogin).click();	
