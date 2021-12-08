@@ -3,6 +3,7 @@
 <suite name="Suite">
 <listeners>
 <listener class-name="Utilities.TestNGListeners"/>
+  <listener class-name="Utilities.RetryAnnotation"/>
 </listeners>
   <test thread-count="5" name="Test">
     <classes>

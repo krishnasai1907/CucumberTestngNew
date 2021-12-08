@@ -86,5 +86,10 @@ public class LoginPage
 //			e.printStackTrace();
 //		}
 	}
-	
+
+    @When("User enters the Username as {string} and Password as {string}")
+    public void userEntersTheUsernameAsAndPasswordAs(String username, String password) {
+		Utility.driver.findElement(user).sendKeys(username);
+		Utility.driver.findElement(pass).sendKeys(password);
+    }
 }

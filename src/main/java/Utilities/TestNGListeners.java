@@ -80,6 +80,7 @@ public class TestNGListeners implements ITestListener{
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
 		System.out.println("================Execution Test Skipped================"+result.getName());
+		Utility.driver.close();
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {

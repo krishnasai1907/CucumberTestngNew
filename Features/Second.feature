@@ -1,11 +1,11 @@
 @tag
 Feature: Second Feature file Testing
 
-  @tag1
+  @tag3
   Scenario: Second Feature file Testing
     Given User enters the Url "https://opensource-demo.orangehrmlive.com/"
     When User landed on webpage
-    Then User enter the username and password from Excel and Json File
+    When User enters the Username as "Admin" and Password as "admin123"
     Then User click on submit button
     Then User take screenshot
     Then User landed on home page
