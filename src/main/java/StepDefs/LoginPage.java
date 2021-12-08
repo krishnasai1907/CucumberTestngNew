@@ -1,15 +1,12 @@
 package StepDefs;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+import Utilities.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
-import Utilities.Config;
-import Utilities.ExcelData;
-import Utilities.JsonConfig;
-import Utilities.MainConfig;
-import Utilities.Utility;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -40,14 +37,14 @@ public class LoginPage
 	public void user_enters_the_Url(String url) throws Throwable {
 //		Utility.startVideo();
 //		ScreenRecorderUtil.startRecord("OrangeHRM");
-//		System.setProperty("webdriver.chrome.driver",MainConfig.getProperties("chromeDriver"));
+//		System.setProperty("webdriver.chrome.driver", MainConfig.getProperties("chromeDriver"));
 		WebDriverManager.chromedriver().setup();
 	    Utility.driver=new ChromeDriver();
 //		System.setProperty("webdriver.gecko.driver",MainConfig.getProperties("geckoDriver"));
 //	    Utility.driver=new FirefoxDriver();
 		Utility.driver.get(url);
 		Utility.driver.manage().window().maximize();
-		Utility.driver.manage().timeouts().pageLoadTimeout(2000, TimeUnit.SECONDS);
+		Utility.driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10000));
 	}
 
 	@When("^User landed on webpage$")
