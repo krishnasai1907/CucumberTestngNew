@@ -19,7 +19,7 @@ public class Config {
 			 e.printStackTrace();
 		 }
 		 String value=prop.getProperty(locName);
-			return values;
+			return value;//its removed
 			 
 	}
 	
