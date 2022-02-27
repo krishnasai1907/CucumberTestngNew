@@ -7,7 +7,7 @@ public class Config {
 	static Properties prop;
 	public static String getProperties(String locName)
 	{
-		 prop=new Properties();
+		 prop=new Properties();//recent
 		 try
 		 {
 			 String splitted=locName.split("\\.")[0].toString();
