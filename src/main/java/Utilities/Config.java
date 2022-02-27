@@ -19,7 +19,7 @@ public class Config {
 			 e.printStackTrace();
 		 }
 		 String value=prop.getProperty(locName);
-			return value;
+			return vdalue;
 			 //not
 	}
 	
