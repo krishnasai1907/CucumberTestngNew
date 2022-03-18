@@ -20,7 +20,6 @@ public class Config {
 		 }
 		 String value=prop.getProperty(locName);
 			return value;//its removed
-			 
 	}
 	
 }
