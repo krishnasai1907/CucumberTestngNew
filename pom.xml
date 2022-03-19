@@ -33,6 +33,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
+            <systemPropertyVariables>
+                <browser>${browser}</browser>
+            </systemPropertyVariables>
         </configuration>
       </plugin>
   </plugins>
