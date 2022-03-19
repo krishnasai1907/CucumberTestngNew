@@ -53,6 +53,5 @@ public class TestRunners extends AbstractTestNGCucumberTests {
 		{
 			System.out.println(checkingtest);
 			System.out.println(checkingtest);
-			System.out.println(checkingtest);
 		}
 }
