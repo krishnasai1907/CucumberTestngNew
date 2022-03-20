@@ -47,11 +47,5 @@ public class TestRunners extends AbstractTestNGCucumberTests {
 	        return super.scenarios();
 	    }
 
-		@Parameters("browser")
-		@Test
-		public void checking(String checkingtest)
-		{
-			System.out.println(checkingtest);
-			System.out.println("Pamba");
-		}
+
 }
